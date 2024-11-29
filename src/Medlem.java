@@ -40,6 +40,16 @@ public class Medlem {
                 .min((r1, r2) -> Double.compare(r1.getTid(), r2.getTid()))
                 .orElse(null);
     }
+    public boolean tilføjOgTjekRekord(TræningsResultat nytResultat) {
+        TræningsResultat bedsteResultat = findBedsteResultat(nytResultat.getDisciplin());
+        if (bedsteResultat == null || nytResultat.getTid() < bedsteResultat.getTid()) {
+            resultater.add(nytResultat);
+            return true; // Det er en ny personlig rekord
+        } else
+
+        resultater.add(nytResultat);
+        return false; // Ikke en personlig rekord
+    }
 
     public List<TræningsResultat> getResultater() {
         return resultater;

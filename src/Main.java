@@ -168,8 +168,15 @@ public class Main {
                                     scanner.nextLine(); // Ryd scanner-bufferen
 
                                     TræningsResultat resultat = new TræningsResultat(disciplin, tid, LocalDate.now());
-                                    medlem.tilføjResultat(resultat);
-                                    System.out.println("Resultat registreret.");
+                                    boolean erRekord = medlem.tilføjOgTjekRekord(resultat);
+
+                                    if (erRekord) {
+                                        System.out.println("Resultat registreret som personlig rekord!");
+                                    } else {
+                                        System.out.println("Resultat registreret.");
+                                    }
+
+
 
                                     klub.gemTræningsResultaterTilFil("træningsresultater.txt");
                                 } else {
