@@ -7,8 +7,8 @@ import java.io.*;
 
 
 public class Klub {
-    private String navn;
-    private List<Medlem> medlemmer;
+    private final String navn;
+    private final List<Medlem> medlemmer;
 
     public Klub(String navn) {
         this.navn = navn;
@@ -87,4 +87,41 @@ public class Klub {
             System.out.println("Fejl ved indlæsning: " + e.getMessage());
         }
     }
+
+    // Gem træningsresultater til en fil
+    public void gemTræningsResultaterTilFil(String filnavn) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(filnavn))) {
+            for (Medlem medlem : medlemmer) {
+                for (TræningsResultat resultat : medlem.getResultater()) {
+                    writer.write(medlem.getNavn() + ";" + resultat.toCSV());
+                    writer.newLine();
+                }
+            }
+            System.out.println("Træningsresultater gemt til fil: " + filnavn);
+        } catch (IOException e) {
+            System.out.println("Fejl ved lagring af træningsresultater: " + e.getMessage());
+        }
+    }
+
+    // Læs træningsresultater fra en fil
+    public void laesTræningsResultaterFraFil(String filnavn) {
+        try (BufferedReader reader = new BufferedReader(new FileReader(filnavn))) {
+            String linje;
+            while ((linje = reader.readLine()) != null) {
+                String[] dele = linje.split(";");
+                String navn = dele[0];
+                Medlem medlem = findMedlemByNavn(navn);
+
+                if (medlem != null) {
+                    TræningsResultat resultat = TræningsResultat.fraCSV(dele[1]);
+                    medlem.tilføjResultat(resultat);
+                }
+            }
+            System.out.println("Træningsresultater indlæst fra fil: " + filnavn);
+        } catch (IOException e) {
+            System.out.println("Fejl ved indlæsning af træningsresultater: " + e.getMessage());
+        }
+    }
+
+
 }

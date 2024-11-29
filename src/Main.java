@@ -169,10 +169,13 @@ public class Main {
                                     TræningsResultat resultat = new TræningsResultat(disciplin, tid, LocalDate.now());
                                     medlem.tilføjResultat(resultat);
                                     System.out.println("Resultat registreret.");
+
+                                    klub.gemTræningsResultaterTilFil("træningsresultater.txt");
                                 } else {
                                     System.out.println("Medlem ikke fundet.");
                                 }
                             }
+
                             case 2 -> {
                                 System.out.print("Indtast medlemmets navn: ");
                                 String navn = scanner.nextLine();

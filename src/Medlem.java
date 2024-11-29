@@ -10,7 +10,7 @@ public class Medlem {
     private boolean erAktivtMedlem;
     private String medlemsType;
     private boolean erIRestance;
-    private List<TræningsResultat> resultater;
+    private final List<TræningsResultat> resultater;
 
 
 
