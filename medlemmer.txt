@@ -1,3 +1,4 @@
 mahamed,23,mafa0003@stud.kea.dk,valby,91670543,true,konkurrencesvømmer
 shahab,21,ahah0002@stud.kea.dk,hvidovre,20167393,true,motionist
 martin,39,maha0013@stud.kea.dk,skovlunde,98135487,true,Er medlemmet motionist eller konkurrencesvømmer? 
+mikkel,21,mik0003@stud.kea.dk,hørsholm,98128273,true,konkurrencesvømmer

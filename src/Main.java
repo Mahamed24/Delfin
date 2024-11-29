@@ -7,6 +7,7 @@ public class Main {
         Klub klub = new Klub("Svømmeklub Delfinen");
 
         klub.laesMedlemmerFraFil("medlemmer.txt");
+        klub.laesTræningsResultaterFraFil("træningsresultater.txt");
 
         boolean running = true;
 
@@ -203,11 +204,9 @@ public class Main {
                     System.out.println();
                     break;
                 }
-                case 4: {
-                    break;
-                }
 
-                case 5: { // Afslut
+                case 4: { // Afslut
+                    klub.gemTræningsResultaterTilFil("træningsresultater.txt");
                     running = false;
                     System.out.println("Programmet afsluttes. Farvel!");
                     break;
