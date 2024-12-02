@@ -148,7 +148,8 @@ public class Main {
                         System.out.println("\nTrænerens menu:");
                         System.out.println("1. Registrer træningsresultat");
                         System.out.println("2. Vis bedste resultat for et medlem");
-                        System.out.println("3. Afslut til hovedmenu");
+                        System.out.println("3. Vis top 5 oversigt");
+                        System.out.println("4. Afslut til hovedmenu");
                         System.out.print("Vælg en mulighed: ");
 
                         int trænerValg = scanner.nextInt();
@@ -177,7 +178,6 @@ public class Main {
                                     }
 
 
-
                                     klub.gemTræningsResultaterTilFil("træningsresultater.txt");
                                 } else {
                                     System.out.println("Medlem ikke fundet.");
@@ -203,14 +203,21 @@ public class Main {
                                     System.out.println("Medlem ikke fundet.");
                                 }
                             }
-                            case 3 -> trænerRunning = false;
-                            default -> System.out.println("Ugyldigt valg. Prøv igen.");
+
+                            case 3 -> { // Vis top 5 oversigt
+                                Svømmedisciplin svømmedisciplin = new Svømmedisciplin(klub.getMedlemmer());
+                                svømmedisciplin.genererTop5(); // Kald metoden for at vise top 5 resultater
+                                break;
+                            }
+
 
                         }
                     }
                     System.out.println();
                     break;
                 }
+
+
 
                 case 4: { // Afslut
                     klub.gemTræningsResultaterTilFil("træningsresultater.txt");

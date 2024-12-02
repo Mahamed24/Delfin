@@ -61,6 +61,7 @@ public class Klub {
         return null; // Returnér null, hvis medlemmet ikke findes
     }
 
+
     // Persistens: Gem medlemmer til en fil
     public void gemMedlemmerTilFil(String filnavn) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filnavn))) {
