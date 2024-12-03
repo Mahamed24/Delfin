@@ -1,4 +1,3 @@
-Frederik Hansen,23,frederik.hansen@email.com,Østerbrogade 21 2100 København Ø,91234857,true,Konkurrencesvømmer
 Katrine Madsen,19,katrine.madsen@email.com,Nørrebrogade 45 2200 København N,82746391,false,Motionist
 Mikkel Larsen,22,mikkel.larsen@email.com,Amagerbrogade 33 2300 København S,71493856,true,Konkurrencesvømmer
 Sofie Holm,25,sofie.holm@email.com,Vesterbrogade 66 1620 København V,81926354,true,Motionist

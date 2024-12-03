@@ -60,6 +60,11 @@ public class Klub {
         }
         return null; // Returnér null, hvis medlemmet ikke findes
     }
+    public void sletMedlem(Medlem medlem) {
+        medlemmer.remove(medlem);
+    }
+
+
 
 
     // Persistens: Gem medlemmer til en fil
