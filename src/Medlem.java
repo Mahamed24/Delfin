@@ -1,5 +1,7 @@
+import javax.swing.*;
 import java.util.ArrayList;
 import java.util.List;
+
 public class Medlem {
 
     private String navn;
@@ -11,11 +13,14 @@ public class Medlem {
     private String medlemsType;
     private boolean erIRestance;
     private final List<TræningsResultat> resultater;
+    private String forældreNavn;
+    private String forældreTelefonnummer;
 
 
 
 
-    public Medlem(String navn, int alder, String email, String adresse, int telefonnummer, boolean erAktivtMedlem, String medlemsType) {
+
+    public Medlem(String navn, int alder, String email, String adresse, int telefonnummer, boolean erAktivtMedlem, String medlemsType, String forældreNavn, String forældreTelefonnummer) {
 
         this.navn = navn;
         this.alder = alder;
@@ -121,6 +126,22 @@ public class Medlem {
         this.erIRestance = erIRestance;
     }
 
+    public String getForældreNavn() {
+        return forældreNavn;
+    }
+
+    public void setForældreNavn(String forældreNavn) {
+        this.forældreNavn = forældreNavn;
+    }
+
+    public String getForældreTelefonnummer() {
+        return forældreTelefonnummer;
+    }
+
+    public void setForældreTelefonnummer(String forældreTelefonnummer) {
+        this.forældreTelefonnummer = forældreTelefonnummer;
+    }
+
     public double beregnKontigent() {
         if (!erAktivtMedlem) return 500;
         if (alder < 18) return 1000;
@@ -139,12 +160,31 @@ public class Medlem {
     public boolean erOver60() {
         return alder >= 60;
     }
-
+/*
     public String toString() {
         return  "Navn: " + navn + ", Alder: " + alder + ", Kontaktinfo: " + email + ", Telefonnummer: " + telefonnummer + ", Adresse: " + adresse + " Medlemstype: " + medlemsType + " Kontigentpris: " + beregnKontigent();
     }
 
+ */
+@Override
+public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("Navn: ").append(navn)
+            .append(", Alder: ").append(alder)
+            .append(", Kontaktinfo: ").append(email)
+            .append(", Telefonnummer: ").append(telefonnummer)
+            .append(", Adresse: ").append(adresse)
+            .append(", Medlemstype: ").append(medlemsType)
+            .append(", Kontingentpris: ").append(beregnKontigent());
 
+    // Tilføj forældreinformation, hvis medlemmet er under 18 år
+    if (alder < 18) {
+        sb.append(", Forældre/Værge: ").append(forældreNavn)
+                .append(", Forældre/Værge Telefonnummer: ").append(forældreTelefonnummer);
+    }
+
+    return sb.toString();
+}
 
     public static Medlem fraCSV(String csv) {
         String[] dele = csv.split(",");
@@ -155,11 +195,17 @@ public class Medlem {
         int telefonnummer = Integer.parseInt(dele[4]);
         boolean erAktivtMedlem = Boolean.parseBoolean(dele[5]);
         String medlemsType = dele[6];
-        return new Medlem(navn, alder, email, adresse, telefonnummer, erAktivtMedlem, medlemsType);
+        String forældreNavn = dele.length > 7 && !dele[7].isEmpty() ? dele[7] : null;
+        String forældreTelefonnummer = dele.length > 8 && !dele[8].isEmpty() ? dele[8] : null;
+
+        return new Medlem(navn, alder, email, adresse, telefonnummer, erAktivtMedlem, medlemsType, forældreNavn, forældreTelefonnummer);
     }
 
+
     public String toCSV() {
-        return navn + "," + alder + "," + email + "," + adresse + "," + telefonnummer + "," + erAktivtMedlem + "," + medlemsType;
+        return navn + "," + alder + "," + email + "," + adresse + "," + telefonnummer + "," + erAktivtMedlem + "," + medlemsType + "," +
+                (forældreNavn != null ? forældreNavn : "") + "," +
+                (forældreTelefonnummer != null ? forældreTelefonnummer : "");
     }
 
 }

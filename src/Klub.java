@@ -1,3 +1,5 @@
+/*
+
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -60,6 +62,11 @@ public class Klub {
         }
         return null; // Returnér null, hvis medlemmet ikke findes
     }
+    public void sletMedlem(Medlem medlem) {
+        medlemmer.remove(medlem);
+    }
+
+
 
 
     // Persistens: Gem medlemmer til en fil
@@ -123,6 +130,19 @@ public class Klub {
             System.out.println("Fejl ved indlæsning af træningsresultater: " + e.getMessage());
         }
     }
+    public void gemMedlemmerIRestanceTilFil(String filNavn) {
+        try (PrintWriter writer = new PrintWriter(new FileWriter(filNavn))) {
+            for (Medlem medlem : medlemmer) { // antag at medlemmer er listen af alle Medlem-objekter
+                if (medlem.erIRestance()) {
+                    writer.println(medlem.toCSV());
+                }
+            }
+            System.out.println("Medlemmer i restance gemt til fil: " + filNavn);
+        } catch (IOException e) {
+            System.out.println("Fejl ved skrivning til fil: " + e.getMessage());
+        }
+    }
+
 
 
 }
