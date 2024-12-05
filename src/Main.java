@@ -71,7 +71,7 @@ public class Main {
                                         String forældreTelefonnummer = null;
 
 
-                                          // Hvis medlemmet er under 18 år, bed om forældrefelter
+                                        // Hvis medlemmet er under 18 år, bed om forældrefelter
                                         if (alder < 18) {
                                             System.out.print("Indtast forældres/værges navn: ");
                                             forældreNavn = scanner.nextLine();
@@ -277,4 +277,3 @@ public class Main {
         scanner.close();
     }
 }
-

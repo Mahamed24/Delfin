@@ -191,3 +191,191 @@ qui,12,qui@stud.kea.dk,valby,92929292,true,konkurrencesvømmer,,
 Michael Jensen,14,MichaelJensen@stud.kea.dk,Valby Langgade 41,21271948,true,konkurrencesvømmer,Chris Jensen,34178515
 gabe,11,gabe@stud.kea.dk,valby,39393939,true,motionist,hamza,84848484
 jens,29,jens@stud.kea.dk,valby,84848484,true,konkurrencesvømmer,,
+
+Katrine Madsen,19,katrine.madsen@email.com,Nørrebrogade 45 2200 København N,82746391,false,Motionist
+Mikkel Larsen,22,mikkel.larsen@email.com,Amagerbrogade 33 2300 København S,71493856,true,Konkurrencesvømmer
+Sofie Holm,25,sofie.holm@email.com,Vesterbrogade 66 1620 København V,81926354,true,Motionist
+Emil Christiansen,20,emil.christiansen@email.com,Frederiksberg Allé 14 1820 Frederiksberg,62984375,false,Konkurrencesvømmer
+Lucas González,19,lucas.gonzalez@email.com,Roskildevej 45 2600 Glostrup,93628174,true,Konkurrencesvømmer
+Laura Poulsen,27,laura.poulsen@email.com,Hvidovrevej 39 2650 Hvidovre,78126439,true,Motionist
+Oscar Jørgensen,24,oscar.jørgensen@email.com,Dragørvej 66 2791 Dragør,91247638,true,Motionist
+Emma Sørensen,24,emma.sørensen@email.com,Roskildevej 15 2600 Glostrup,49382765,true,Motionist
+Isabella Nielsen,29,isabella.nielsen@email.com,Holbækvej 8 2400 København NV,72384619,true,Konkurrencesvømmer
+Victor Olsen,19,victor.olsen@email.com,Herlev Hovedgade 20 2730 Herlev,73928146,false,Motionist
+Lucas Christensen,28,lucas.christensen@email.com,Lyngbyvej 52 2800 Lyngby,87341652,true,Motionist
+Maja Andersen,23,maja.andersen@email.com,Kalvebod Brygge 19 1560 København V,56483912,true,Konkurrencesvømmer
+Sofia Friis,27,sofia.friis@email.com,Hørsholmvej 18 2970 Hørsholm,64873192,true,Konkurrencesvømmer
+Elliot Cooper,23,elliot.cooper@email.com,Ballerupvej 50 2750 Ballerup,48236179,true,Motionist
+Jonas Thomsen,26,jonas.thomsen@email.com,Ballerupvej 14 2750 Ballerup,93124785,true,Konkurrencesvømmer
+Ida Mortensen,20,ida.mortensen@email.com,Farum Hovedgade 33 3520 Farum,82643719,false,Motionist
+Chloe Miller,30,chloe.miller@email.com,Vesterbrogade 82 1620 København V,48261357,false,Motionist
+Anna Clausen,22,anna.clausen@email.com,Tårnvej 72 2610 Rødovre,78134926,true,Motionist
+Mila Anderson,27,mila.anderson@email.com,Dragørvej 55 2791 Dragør,74639285,false,Konkurrencesvømmer
+William Møller,21,william.møller@email.com,Bagsværd Hovedgade 55 2880 Bagsværd,49382614,true,Konkurrencesvømmer
+Oscar Martínez,27,oscar.martinez@email.com,Hvidovrevej 77 2650 Hvidovre,37584926,true,Motionist
+Noah Pedersen,26,noah.pedersen@email.com,Taastrup Hovedgade 44 2630 Taastrup,61482379,false,Motionist
+Sofia Brown,26,sophia.brown@email.com,Nørrebrogade 32 2200 København N,65238971,false,Motionist
+Ella Rasmussen,18,ella.rasmussen@email.com,Charlottenlundvej 90 2920 Charlottenlund,82739461,false,Motionist
+Lucas González,19,lucas.gonzalez@email.com,Roskildevej 45 2600 Glostrup,93628174,true,Konkurrencesvømmer
+Frederik Nielsen,22,frederik.nielsen@email.com,Amagerbrogade 12 2300 København S,76123490,false,Motionist
+Sofia Miller,28,sofia.miller@email.com,Broagervej 7 2900 Hellerup,56329147,true,Motionist
+Emil Madsen,25,emil.madsen@email.com,Skovlundevej 10 2740 Skovlunde,89124503,false,Konkurrencesvømmer
+Maja Holm,23,maja.holm@email.com,Lyngbyvej 44 2800 Lyngby,60287351,true,Konkurrencesvømmer
+Chloe Martínez,27,chloe.martinez@email.com,Glamsbjergvej 88 2650 Hvidovre,89376251,false,Motionist
+Albert Jensen,24,albert.jensen@email.com,Skovvejen 11 2765 Smørum,74123658,true,Konkurrencesvømmer
+Hanna Christensen,21,hanna.christensen@email.com,Lyngbyvej 72 2800 Lyngby,65847392,false,Motionist
+Oliver Petersen,23,oliver.petersen@email.com,Stamholmen 38 2650 Hvidovre,67129384,true,Konkurrencesvømmer
+Amalie Sørensen,28,amalie.sorensen@email.com,Nyhavn 5 1051 København K,83562471,false,Motionist
+Michael Larsen,20,michael.larsen@email.com,Bispebjerg Bakke 9 2400 København NV,83647291,true,Motionist
+Emma Olesen,27,emma.olesen@email.com,Håndværkervej 26 2900 Hellerup,75283614,false,Konkurrencesvømmer
+Noah Nielsen,22,noah.nielsen@email.com,Vesterbrogade 98 1620 København V,48271653,true,Motionist
+Sofie Rasmussen,25,sofie.rasmussen@email.com,Østerbrogade 12 2100 København Ø,54728190,false,Konkurrencesvømmer
+Victor Jacobsen,24,victor.jacobsen@email.com,Sundbyvestervej 44 2300 København S,76381924,true,Konkurrencesvømmer
+Lykke Madsen,23,lykke.madsen@email.com,Frederiksberg Alle 7 1820 Frederiksberg,54938126,false,Motionist
+Felix Møller,21,felix.moeller@email.com,Roskildevej 10 2600 Glostrup,62749815,true,Motionist
+Anna Sørensen,29,anna.sorensen@email.com,Tårnvej 55 2610 Rødovre,74652381,false,Motionist
+Mikkel Christensen,22,mikkel.christensen@email.com,Ballerupvej 88 2750 Ballerup,61472839,true,Konkurrencesvømmer
+Amira Nørgaard,20,amira.norgaard@email.com,Helsingørsgade 20 2200 København N,50273841,true,Motionist
+Malthe Olsen,27,malthe.olsen@email.com,Vesterbrogade 12 1620 København V,74283962,false,Konkurrencesvømmer
+Lasse Thomsen,26,lasse.thomsen@email.com,Frederiksborgvej 100 3400 Hillerød,47382916,true,Motionist
+Clara Petersen,28,clara.petersen@email.com,Herlev Hovedgade 77 2730 Herlev,49362571,true,Konkurrencesvømmer
+Felix Johansson,22,felix.johansson@email.com,Holbækvej 25 2400 København NV,51293847,false,Konkurrencesvømmer
+Emilie Frederiksen,25,emilie.frederiksen@email.com,Østerbrogade 56 2100 København Ø,67283492,true,Motionist
+Nikolaj Sørensen,23,nikolaj.sorensen@email.com,Amagerbrogade 72 2300 København S,48173692,true,Konkurrencesvømmer
+Sophia Rød,30,sophia.rod@email.com,Frederiksberg Alle 30 1820 Frederiksberg,63928271,false,Konkurrencesvømmer
+Axel Jensen,19,axel.jensen@email.com,Vesterbrogade 23 1620 København V,81962437,true,Motionist
+Emily Sander,27,emily.sander@email.com,Hvidovrevej 66 2650 Hvidovre,72019485,false,Motionist
+Mikkel Mortensen,21,mikkel.mortensen@email.com,Købmagergade 35 1150 København K,57382961,true,Motionist
+Frederik Nygaard,28,frederik.nygaard@email.com,Skovvej 8 2770 Kastrup,56482937,false,Konkurrencesvømmer
+Karoline Larsen,24,karoline.larsen@email.com,Nørrebrogade 65 2200 København N,72564983,true,Motionist
+Rasmus Holm,29,rasmus.holm@email.com,Farum Hovedgade 7 3520 Farum,73928174,false,Konkurrencesvømmer
+Maja Nielsen,22,maja.nielsen@email.com,Frederiksborgvej 50 3400 Hillerød,68372940,true,Motionist
+Hugo Jensen,23,hugo.jensen@email.com,Lyngbyvej 18 2800 Lyngby,67382910,true,Motionist
+Lina Vestergaard,28,lina.vestergaard@email.com,Glamsbjergvej 5 2650 Hvidovre,75946321,false,Konkurrencesvømmer
+Lukas Bæk,24,lukas.baek@email.com,Dragørvej 33 2791 Dragør,56184723,true,Motionist
+Mikkel Nissen,27,mikkel.nissen@email.com,Skovbovej 14 2800 Lyngby,67283941,true,Motionist
+Kasper Sørensen,26,kasper.sorensen@email.com,Østre Allé 14 2100 København Ø,62749381,true,Konkurrencesvømmer
+Isabella Madsen,24,isabella.madsen@email.com,Amagerfælledvej 100 2300 København S,81472693,false,Konkurrencesvømmer
+Albert Frederiksen,28,albert.frederiksen@email.com,Glamsbjergvej 22 2650 Hvidovre,74936128,true,Motionist
+Mathilde Jensen,25,mathilde.jensen@email.com,Åboulevard 35 2200 København N,73839261,false,Motionist
+Benjamin Mortensen,27,benjamin.mortensen@email.com,Købmagergade 44 1150 København K,68421573,true,Konkurrencesvømmer
+Sara Johansen,24,sara.johansen@email.com,Solrødvej 12 2690 Karlslunde,74618390,false,Konkurrencesvømmer
+Jakob Holm,23,jakob.holm@email.com,Rudersdalvej 7 2840 Holte,67382649,true,Motionist
+Alma Rasmussen,21,alma.rasmussen@email.com,Vesterbro 55 1620 København V,82573739,false,Motionist
+Oliver Nørgaard,22,oliver.norgaard@email.com,Amagerbrogade 30 2300 København S,73168294,true,Konkurrencesvømmer
+Fie Christensen,25,fie.christensen@email.com,Frederiksvej 11 2600 Glostrup,73849372,false,Motionist
+Mads Olesen,30,mads.olesen@email.com,Lyngbyvej 25 2800 Lyngby,73856392,true,Motionist
+Hugo Petersen,22,hugo.petersen@email.com,Skovbovej 3 2770 Kastrup,56492018,true,Konkurrencesvømmer
+Clara Sørensen,26,clara.sorensen@email.com,Farum Hovedgade 88 3520 Farum,75283610,false,Konkurrencesvømmer
+Nikolaj Møller,29,nikolaj.moeller@email.com,Nørrebro Park 43 2200 København N,61837251,true,Konkurrencesvømmer
+Johanne Jacobsen,24,johanne.jacobsen@email.com,Skovvejen 9 2765 Smørum,74395826,false,Motionist
+Asger Holm,21,asger.holm@email.com,Helsingørsgade 15 2200 København N,74958213,true,Motionist
+Freja Nielsen,28,freja.nielsen@email.com,Vesterbrogade 55 1620 København V,63527148,true,Konkurrencesvømmer
+Erik Lund,23,erik.lund@email.com,Håndværkervej 10 2900 Hellerup,62894710,false,Konkurrencesvømmer
+Eva Madsen,22,eva.madsen@email.com,Lyngbyvej 78 2800 Lyngby,78563412,true,Motionist
+Simon Jensen,27,simon.jensen@email.com,Amagerbrogade 72 2300 København S,62538174,true,Konkurrencesvømmer
+Liva Christensen,24,liva.christensen@email.com,Skovvej 8 2770 Kastrup,75183640,false,Motionist
+Oscar Johansen,21,oscar.johansen@email.com,Solrødvej 44 2690 Karlslunde,57392018,true,Motionist
+Maya Lund,30,maya.lund@email.com,Skovvej 22 2800 Lyngby,62948371,true,Konkurrencesvømmer
+Sebastian Rasmussen,28,sebastian.rasmussen@email.com,Lyngbyvej 99 2800 Lyngby,73846281,true,Motionist
+William Sørensen,23,william.sorensen@email.com,Dragørvej 15 2791 Dragør,68457392,false,Motionist
+Viktor Petersen,22,viktor.petersen@email.com,Amagerbrogade 9 2300 København S,73928361,true,Motionist
+Sofie Mortensen,29,sofie.mortensen@email.com,Farum Hovedgade 31 3520 Farum,72938462,true,Konkurrencesvømmer
+Lukas Holm,24,lukas.holm@email.com,Vesterbrogade 56 1620 København V,81462837,false,Konkurrencesvømmer
+Nanna Olesen,21,nanna.olesen@email.com,Frederiksborgvej 78 3400 Hillerød,73947281,true,Konkurrencesvømmer
+Mikkel Jørgensen,27,mikkel.jorgensen@email.com,Sundbyvestervej 100 2300 København S,81923560,false,Motionist
+Lærke Johansen,25,laerke.johansen@email.com,Vesterbrogade 21 1620 København V,74538912,true,Konkurrencesvømmer
+Sander Pedersen,22,sander.pedersen@email.com,Bispebjergvej 65 2400 København NV,63485902,false,Motionist
+Maja Frederiksen,24,maja.frederiksen@email.com,Skovbovej 12 2650 Hvidovre,63521798,true,Konkurrencesvømmer
+Amalie Jensen,24,amalie.jensen@email.com,Vesterbrogade 24 1620 København V,71234567,true,Konkurrencesvømmer
+Oscar Madsen,26,oscar.madsen@email.com,H.C. Andersens Boulevard 35 1553 København V,71987654,true,Konkurrencesvømmer
+Nina Pedersen,23,nina.pedersen@email.com,Østerbrogade 56 2100 København Ø,71122344,false,Motionist
+Frederik Schmidt,25,frederik.schmidt@email.com,Bernstorffsgade 45 1577 København V,73811234,true,Konkurrencesvømmer
+Sara Rasmussen,21,sara.rasmussen@email.com,Sundbyvestervej 78 2300 København S,73564567,true,Konkurrencesvømmer
+Jakob Sørensen,28,jakob.sorensen@email.com,Strandvejen 120 2900 Hellerup,74986523,false,Motionist
+Mia Hansen,24,mia.hansen@email.com,Falkoner Allé 63 2000 Frederiksberg,73421345,false,Motionist
+Victor Nielsen,27,victor.nielsen@email.com,Godthåbsvej 22 2000 Frederiksberg,73781234,true,Konkurrencesvømmer
+Emilie Sørensen,23,emilie.sorensen@email.com,Amagerbrogade 101 2300 København S,71456234,false,Motionist
+Mikkel Christensen,25,mikkel.christensen@email.com,Falster Allé 33 2920 Charlottenlund,74657384,true,Konkurrencesvømmer
+Oliver Mortensen,21,oliver.mortensen@email.com,Gl. Kongevej 88 1850 Frederiksberg,72563421,true,Konkurrencesvømmer
+Lærke Sørensen,26,laerke.sorensen@email.com,Klampenborgvej 124 2920 Charlottenlund,74135687,true,Konkurrencesvømmer
+Oliver Nielsen,28,oliver.nielsen@email.com,Enghavevej 23 1670 København V,73256498,true,Konkurrencesvømmer
+Kasper Johansen,29,kasper.johansen@email.com,Tranevej 7 2700 Brønshøj,72495731,false,Motionist
+Sofie Madsen,24,sofie.madsen@email.com,Slagelsegade 4 2100 København Ø,71566789,true,Konkurrencesvømmer
+Daniel Pedersen,23,daniel.pedersen@email.com,Amager Strandvej 23 2300 København S,73823456,false,Motionist
+Mathias Larsen,22,mathias.larsen@email.com,Højbro Plads 14 1200 København K,72656437,true,Konkurrencesvømmer
+Julie Jensen,24,julie.jensen@email.com,Tagensvej 76 2200 København N,74129357,false,Motionist
+Lasse Mikkelsen,26,lasse.mikkelsen@email.com,Lyngbyvej 210 2800 Kongens Lyngby,73653210,true,Konkurrencesvømmer
+Freja Nielsen,21,freja.nielsen@email.com,Elmegade 25 2200 København N,72345219,false,Motionist
+Andreas Sørensen,23,andreas.sorensen@email.com,Ågade 32 2200 København N,72987513,true,Konkurrencesvømmer
+Nicolai Thomsen,25,nicolai.thomsen@email.com,Lyngbyvej 155 2800 Kongens Lyngby,73274568,false,Motionist
+Julie Pedersen,22,julie.pedersen@email.com,Glamsbjergsvej 17 2920 Charlottenlund,71592734,true,Konkurrencesvømmer
+Magnus Jensen,27,magnus.jensen@email.com,Rantzausgade 11 2200 København N,73848392,true,Konkurrencesvømmer
+Selina Hansen,23,selina.hansen@email.com,Skovbrynet 5 2700 Brønshøj,74623851,true,Konkurrencesvømmer
+Caroline Mortensen,24,caroline.mortensen@email.com,Sankt Annæ Gade 48 1416 København K,72567384,false,Motionist
+Mikkel Frederiksen,29,mikkel.frederiksen@email.com,Skovvej 13 2970 Hørsholm,73892012,true,Konkurrencesvømmer
+Oliver Madsen,22,oliver.madsen@email.com,Grønningen 33 2900 Hellerup,72342390,false,Motionist
+Clara Hansen,26,clara.hansen@email.com,Carlsbergvej 67 1799 København V,74239108,true,Konkurrencesvømmer
+Peter Johansen,30,peter.johansen@email.com,Nyhavn 57 1051 København K,73743211,true,Konkurrencesvømmer
+Sofie Petersen,21,sofie.petersen@email.com,Borups Allé 91 2000 Frederiksberg,71982340,false,Motionist
+August Christensen,27,august.christensen@email.com,Nørrebro 102 2200 København N,74056293,true,Konkurrencesvømmer
+Viktor Andersen,17,viktor.andersen@email.com,Søndergade 54 9000 Aalborg,72836591,true,Motionist
+Emma Madsen,15,emma.madsen@email.com,Hovedgaden 34 2800 Kongens Lyngby,73582863,true,Konkurrencesvømmer
+Christian Pedersen,16,christian.pedersen@email.com,Højdevangen 21 2400 København NV,73819562,true,Motionist
+Asta Rasmussen,17,asta.rasmussen@email.com,Glamsbjergvej 3 5800 Nyborg,74738591,true,Motionist
+Thor Lind,16,thor.lind@email.com,Storegade 8 7000 Fredericia,72836472,false,Motionist
+Maja Sørensen,15,maja.sorensen@email.com,Skovvej 45 2700 Brønshøj,73362951,true,Konkurrencesvømmer
+Anton Lund,17,anton.lund@email.com,Bækvej 21 4000 Roskilde,74283756,true,Motionist
+Mille Christensen,16,mille.christensen@email.com,Strandvej 10 2950 Vedbæk,74729283,true,Motionist
+Lukas Olesen,15,lukas.olesen@email.com,Østerbrogade 23 2100 København Ø,73567184,false,Motionist
+Ida Skov,16,ida.skov@email.com,Skovvej 91 7000 Fredericia,73824956,true,Konkurrencesvømmer
+Rasmus Jensen,17,rasmus.jensen@email.com,Vestergade 5 8800 Viborg,74583961,true,Motionist
+Laura Petersen,16,laura.petersen@email.com,Hvidovrevej 23 2650 Hvidovre,73569834,true,Konkurrencesvømmer
+Emilie Larsen,15,emilie.larsen@email.com,Nørrebro 40 2200 København N,74657293,true,Motionist
+Max Nielsen,17,max.nielsen@email.com,Lindevej 89 2800 Kgs. Lyngby,74275839,true,Motionist
+Freja Holm,16,freja.holm@email.com,Glamsbjergvej 22 5000 Odense,73518962,true,Konkurrencesvømmer
+Noah Sørensen,17,noah.sorensen@email.com,Skagenvej 18 8500 Grenaa,74264937,true,Motionist
+Sarah Madsen,15,sarah.madsen@email.com,Vesterbrogade 77 1620 København V,73894652,true,Motionist
+Elias Pedersen,16,elias.pedersen@email.com,Hegedal 12 2730 Herlev,74162348,false,Motionist
+Olivia Sørensen,16,olivia.sorensen@email.com,Frederiksvej 20 2920 Charlottenlund,73597264,true,Konkurrencesvømmer
+Mathias Lind,17,mathias.lind@email.com,Østerbrogade 58 2100 København Ø,74263574,true,Motionist
+Clara Nielsen,15,clara.nielsen@email.com,Solsiden 19 8200 Aarhus,73651493,true,Motionist
+Emil Madsen,17,emil.madsen@email.com,Møllevej 27 3000 Helsingør,74283857,true,Konkurrencesvømmer
+Sebastian Holm,16,sebastian.holm@email.com,Vesterbrogade 45 1620 København V,73587392,true,Motionist
+Amanda Pedersen,15,amanda.pedersen@email.com,Ågade 12 4600 Køge,74373982,false,Motionist
+Axel Sørensen,16,axel.sorensen@email.com,Hørsholmvej 22 2950 Vedbæk,74819362,true,Konkurrencesvømmer
+Louise Rasmussen,17,louise.rasmussen@email.com,Havnevej 34 8000 Aarhus,74263491,true,Motionist
+Oliver Madsen,15,oliver.madsen@email.com,Købmagergade 19 1150 København K,73649873,true,Konkurrencesvømmer
+Agnes Jensen,16,agnes.jensen@email.com,Toftevej 34 2400 København NV,74287291,true,Motionist
+Gabriel Pedersen,16,gabriel.pedersen@email.com,Østergade 7 1000 København K,73598341,false,Motionist
+Julie Lund,15,julie.lund@email.com,Løvstræde 9 1300 København K,73728391,true,Konkurrencesvømmer
+Magnus Thomsen,17,magnus.thomsen@email.com,Solbakken 12 5000 Odense,74583921,true,Konkurrencesvømmer
+Clara Lind,16,clara.lind@email.com,Højbjergvej 27 4000 Roskilde,74263457,true,Motionist
+Tobias Jørgensen,17,tobias.jorgensen@email.com,Skovgårdsvej 17 2800 Kgs. Lyngby,73684920,true,Motionist
+Olivia Jørgensen,15,olivia.jorgensen@email.com,Lillevang 9 5500 Middelfart,74839581,true,Konkurrencesvømmer
+Hugo Sørensen,16,hugo.sorensen@email.com,Grønnegade 8 3700 Rønne,73548901,false,Motionist
+Nora Petersen,17,nora.petersen@email.com,Solgårdsvej 56 3000 Helsingør,74239562,true,Konkurrencesvømmer
+Mads Christiansen,15,mads.christiansen@email.com,Vesterbakken 13 9100 Aalborg,73847392,true,Motionist
+Emma Johansen,16,emma.johansen@email.com,Fjordvej 14 8000 Aarhus,74763592,true,Konkurrencesvømmer
+Asger Lind,16,asger.lind@email.com,Stenhuggervej 22 6000 Kolding,74284910,false,Motionist
+Agnes Sørensen,15,agnes.sorensen@email.com,Skolegade 9 1000 København K,73652380,true,Motionist
+Karla Madsen,16,karla.madsen@email.com,Husumvej 30 2700 Brønshøj,74729038,true,Konkurrencesvømmer
+Emilie Olesen,16,emilie.olesen@email.com,Lygten 42 2400 København NV,73882961,true,Motionist
+William Rasmussen,15,william.rasmussen@email.com,Krogen 12 5000 Odense,74239851,true,Konkurrencesvømmer
+Lærke Hansen,16,laerke.hansen@email.com,Kongensgade 21 5000 Odense,74573921,true,Motionist
+Karl Jakobsen,16,karl.jakobsen@email.com,Skovvej 19 2500 Valby,73649102,true,Konkurrencesvømmer
+Viktor Pedersen,15,viktor.pedersen@email.com,Havrebjerg 5 6000 Kolding,74280357,false,Motionist
+Sofie Lind,17,sofie.lind@email.com,Grønnehave 29 6700 Esbjerg,74290581,true,Motionist
+Malthe Nielsen,16,malthe.nielsen@email.com,Stenhusvej 23 4000 Roskilde,73598162,true,Konkurrencesvømmer
+Clara Olesen,17,clara.olesen@email.com,Fuglevang 11 5000 Odense,73847290,true,Motionist
+Alexander Madsen,15,alexander.madsen@email.com,Skovlyst 8 2800 Kgs. Lyngby,74658291,false,Motionist
+Astrid Sørensen,16,astrid.sorensen@email.com,Grønnegade 35 4000 Roskilde,73597184,true,Konkurrencesvømmer
+Emil Skov,17,emil.skov@email.com,Skovbakken 17 9700 Brønderslev,74260358,true,Motionist
+Andreas Johansen,15,andreas.johansen@email.com,Strandgade 12 7100 Vejle,74287039,true,Konkurrencesvømmer
+Ida Petersen,17,ida.petersen@email.com,Bygaden 9 5600 Faaborg,73597283,true,Motionist
+Isak Thomsen,16,isak.thomsen@email.com,Bøgevej 31 4600 Køge,74298372,true,Motionist
+Cecilie Holm,16,cecilie.holm@email.com,Kongevej 7 2800 Kgs. Lyngby,73828492,false,Motionist
+Johan Nielsen,17,johan.nielsen@email.com,Blomstervej 11 2200 København N,74279563,true,Motionist
+Freja Lund,15,freja.lund@email.com,Engelsholm 24 3100 Hornbæk,73597302,true,Konkurrencesvømmer
+Isolde Madsen,15,isolde.madsen@email.com,Søndergade 4 9300 Sæby,73894762,true,Motionist
+Benjamin Rasmussen,16,benjamin.rasmussen@email.com,Bakkerne 5 2750 Ballerup,74280345,true,Konkurrencesvømmer
