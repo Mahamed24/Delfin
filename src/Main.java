@@ -9,6 +9,8 @@ public class Main {
         Klub klub = new Klub("Svømmeklub Delfinen");
         klub.laesMedlemmerFraFil("medlemmer.txt");
         klub.laesTræningsResultaterFraFil("træningsresultater.txt");
+        klub.laesMedlemmerIRestanceFraFil("medlemmer_i_restance.txt");
+
 
 
         boolean running = true;
@@ -24,10 +26,10 @@ public class Main {
                 System.out.print("Vælg din rolle: ");
 
                 int rolleValg = scanner.nextInt();
-                scanner.nextLine(); // Clear scanner buffer
+                scanner.nextLine();
 
                 switch (rolleValg) {
-                    case 1: { // Formand
+                    case 1: {
                         boolean formandRunning = true;
                         while (formandRunning) {
                             try {
@@ -39,7 +41,7 @@ public class Main {
                                 System.out.print("Vælg en mulighed: ");
 
                                 int formandValg = scanner.nextInt();
-                                scanner.nextLine(); // Clear buffer
+                                scanner.nextLine();
 
                                 switch (formandValg) {
                                     case 1:
@@ -53,25 +55,22 @@ public class Main {
                                         System.out.print("Indtast email: ");
                                         String email = scanner.nextLine();
 
-                                        System.out.println("Indtast adresse: ");
+                                        System.out.print("Indtast adresse: ");
                                         String adresse = scanner.nextLine();
 
-                                        System.out.println("Indtast telefonnummer: ");
+                                        System.out.print("Indtast telefonnummer: ");
                                         int telefonnummer = scanner.nextInt();
 
                                         System.out.print("Er medlemmet aktiv? (true/false): ");
                                         boolean erAktivtMedlem = scanner.nextBoolean();
-                                        scanner.nextLine(); // Ryd scanner-bufferen.
+                                        scanner.nextLine();
 
                                         System.out.print("Er medlemmet motionist eller konkurrencesvømmer? ");
                                         String medlemsType = scanner.nextLine();
 
-                                        // Variabler til forældreinformation
                                         String forældreNavn = null;
                                         String forældreTelefonnummer = null;
 
-
-                                        // Hvis medlemmet er under 18 år, bed om forældrefelter
                                         if (alder < 18) {
                                             System.out.print("Indtast forældres/værges navn: ");
                                             forældreNavn = scanner.nextLine();
@@ -80,11 +79,7 @@ public class Main {
                                             forældreTelefonnummer = scanner.nextLine();
                                         }
 
-
-
-                                        // Opret nyt medlem med alle nødvendige parametre
                                         Medlem nytMedlem = new Medlem(navn, alder, email, adresse, telefonnummer, erAktivtMedlem, medlemsType, forældreNavn, forældreTelefonnummer);
-
                                         klub.registrerMedlem(nytMedlem);
                                         klub.gemMedlemmerTilFil("medlemmer.txt");
 
@@ -125,13 +120,13 @@ public class Main {
                                 }
                             } catch (InputMismatchException e) {
                                 System.out.println("Ugyldigt input. Prøv igen.");
-                                scanner.nextLine(); // Clear scanner-bufferen
+                                scanner.nextLine();
                             }
                         }
                         break;
                     }
 
-                    case 2: { // Kasserer
+                    case 2: {
                         boolean kassererRunning = true;
                         while (kassererRunning) {
                             System.out.println("\nKassererens menu:");
@@ -142,7 +137,7 @@ public class Main {
                             System.out.print("Vælg en mulighed: ");
 
                             int kassererValg = scanner.nextInt();
-                            scanner.nextLine(); // Clear buffer
+                            scanner.nextLine();
 
                             switch (kassererValg) {
                                 case 1:
@@ -150,12 +145,13 @@ public class Main {
                                     break;
 
                                 case 2:
-                                    System.out.println("Indtast navnet på medlemmet, der skal markeres i restance:");
+                                    System.out.print("Indtast navnet på medlemmet, der skal markeres i restance: ");
                                     String navn = scanner.nextLine();
                                     Medlem fundetMedlem = klub.findMedlemByNavn(navn);
                                     if (fundetMedlem != null) {
                                         fundetMedlem.setErIRestance(true);
                                         System.out.println(navn + " er nu markeret som i restance.");
+                                        klub.gemMedlemmerIRestanceTilFil("medlemmer_i_restance.txt");
                                     } else {
                                         System.out.println("Medlem ikke fundet.");
                                     }
@@ -168,7 +164,6 @@ public class Main {
                                     }
                                     break;
 
-
                                 case 4:
                                     kassererRunning = false;
                                     break;
@@ -180,7 +175,7 @@ public class Main {
                         break;
                     }
 
-                    case 3: { // Træner
+                    case 3: {
                         boolean trænerRunning = true;
                         while (trænerRunning) {
                             System.out.println("\nTrænerens menu:");
@@ -191,7 +186,7 @@ public class Main {
                             System.out.print("Vælg en mulighed: ");
 
                             int trænerValg = scanner.nextInt();
-                            scanner.nextLine(); // Clear buffer
+                            scanner.nextLine();
 
                             switch (trænerValg) {
                                 case 1:
@@ -204,7 +199,7 @@ public class Main {
                                         String disciplin = scanner.nextLine();
                                         System.out.print("Indtast tid (sek): ");
                                         double tid = scanner.nextDouble();
-                                        scanner.nextLine(); // Clear buffer
+                                        scanner.nextLine();
 
                                         TræningsResultat resultat = new TræningsResultat(disciplin, tid, LocalDate.now());
                                         boolean erRekord = medlem.tilføjOgTjekRekord(resultat);
@@ -246,10 +241,9 @@ public class Main {
                                     svømmedisciplin.genererTop5();
                                     break;
 
-                                case 4: { // Afslut til hovedmenu
+                                case 4:
                                     trænerRunning = false;
                                     break;
-                                }
 
                                 default:
                                     System.out.println("Ugyldigt valg. Prøv igen.");
@@ -258,7 +252,7 @@ public class Main {
                         break;
                     }
 
-                    case 4: { // Afslut program
+                    case 4: {    // Afslut program
                         klub.gemTræningsResultaterTilFil("træningsresultater.txt");
                         running = false;
                         System.out.println("Programmet afsluttes. Farvel!");
@@ -270,10 +264,9 @@ public class Main {
                 }
             } catch (InputMismatchException e) {
                 System.out.println("Ugyldigt input. Prøv igen.");
-                scanner.nextLine(); // Clear scanner buffer
+                scanner.nextLine();
             }
         }
-
         scanner.close();
     }
 }

@@ -59,7 +59,7 @@ public class Klub {
                 return medlem;
             }
         }
-        return null; // Returnér null, hvis medlemmet ikke findes
+        return null;
     }
     public void sletMedlem(Medlem medlem) {
         medlemmer.remove(medlem);
@@ -130,8 +130,8 @@ public class Klub {
         }
     }
     public void gemMedlemmerIRestanceTilFil(String filNavn) {
-        try (PrintWriter writer = new PrintWriter(new FileWriter(filNavn))) {
-            for (Medlem medlem : medlemmer) { // antag at medlemmer er listen af alle Medlem-objekter
+        try (PrintWriter writer = new PrintWriter(new FileWriter(filNavn, true))) {
+            for (Medlem medlem : medlemmer) {
                 if (medlem.erIRestance()) {
                     writer.println(medlem.toCSV());
                 }
@@ -141,6 +141,22 @@ public class Klub {
             System.out.println("Fejl ved skrivning til fil: " + e.getMessage());
         }
     }
+
+    public List<Medlem> laesMedlemmerIRestanceFraFil(String filNavn) {
+        List<Medlem> medlemmerIRestance = new ArrayList<>();
+        try (BufferedReader reader = new BufferedReader(new FileReader(filNavn))) {
+            String linje;
+            while ((linje = reader.readLine()) != null) {
+                Medlem medlem = Medlem.fraCSV(linje);
+                medlemmerIRestance.add(medlem);
+            }
+            System.out.println("Medlemmer i restance læst fra fil: " + filNavn);
+        } catch (IOException e) {
+            System.out.println("Fejl ved læsning fra fil: " + e.getMessage());
+        }
+        return medlemmerIRestance;
+    }
+
 
 
 

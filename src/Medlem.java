@@ -160,12 +160,7 @@ public class Medlem {
     public boolean erOver60() {
         return alder >= 60;
     }
-/*
-    public String toString() {
-        return  "Navn: " + navn + ", Alder: " + alder + ", Kontaktinfo: " + email + ", Telefonnummer: " + telefonnummer + ", Adresse: " + adresse + " Medlemstype: " + medlemsType + " Kontigentpris: " + beregnKontigent();
-    }
 
- */
 @Override
 public String toString() {
     StringBuilder sb = new StringBuilder();
